@@ -30,7 +30,7 @@ terraform {
 }
 
 provider "aws" {
-  region = "ap-south-1"
+  region = "ap-northeast-1"
 }
 
 resource "aws_s3_bucket" "imported_bucket" {
